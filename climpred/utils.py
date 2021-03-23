@@ -283,6 +283,7 @@ def get_lead_cftime_shift_args(units, lead):
         "weeks": (lead * 7, "D"),
         "pentads": (lead * 5, "D"),
         "days": (lead, "D"),
+        "hours": (lead, "H")
     }
 
     try:
